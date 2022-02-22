@@ -78,6 +78,18 @@ if (isset($_GET['page'])) {
 			file_exists('pages/admin/karyawanjabatan.php') ? include
 				'pages/admin/karyawanjabatan.php' : include "pages/404.php";
 			break;
+		case 'penggajianrekap':
+			file_exists('pages/admin/penggajianrekap.php') ? include
+				'pages/admin/penggajianrekap.php' : include "pages/404.php";
+			break;
+		case 'penggajianrekaptahun':
+			file_exists('pages/admin/penggajianrekaptahun.php') ? include
+				'pages/admin/penggajianrekaptahun.php' : include "pages/404.php";
+			break;
+		case 'penggajianrekapbulan':
+			file_exists('pages/admin/penggajianrekapbulan.php') ? include
+				'pages/admin/penggajianrekapbulan.php' : include "pages/404.php";
+			break;
 
 		default:
 			include "pages/404.php";
